@@ -12,7 +12,8 @@ const options =
     method: 'POST',
     headers,
     body: JSON.stringify
-    ({
+    ({  
+        "idBook" : '32',
         "firstName": "First Name 0",
         "lastName": "Last Name 0"  
     })
